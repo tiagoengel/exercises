@@ -1,5 +1,5 @@
 var assert = require('assert');
-var curry = require('./');
+var curry = require('./curry.js');
 
 describe('curry', function() {
 
