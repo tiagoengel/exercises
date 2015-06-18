@@ -1,5 +1,5 @@
 var assert = require('assert');
-var async = require('./');
+var async = require('./async.js');
 
 describe('async', function() {
 
@@ -8,7 +8,7 @@ describe('async', function() {
       var fun1 = function(cb) {
         setTimeout(cb.bind(null, null, 'test'), 10);
       };
-      var fun2 = function(cb, data) {
+      var fun2 = function(cb, data) {        
         setTimeout(cb.bind(null, null, data + 'ing'), 10);
       };
 
