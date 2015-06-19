@@ -1,5 +1,3 @@
-var slice = Array.prototype.slice;
-
 var Async = function() {};
 Async.prototype = {
 
