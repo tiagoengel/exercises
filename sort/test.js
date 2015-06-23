@@ -6,7 +6,7 @@ Array.prototype.sort = function() {
 };
 
 var assert = require('assert');
-var sort = require('./');
+var sort = require('./sort.js');
 
 describe('sort', function() {
 
